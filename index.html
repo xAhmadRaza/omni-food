@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/general.css" />
     <link rel="stylesheet" href="style/styles.css" />
+    <link rel="stylesheet" href="style/queries.css" />
     <title>Omnifood</title>
   </head>
   <body>
@@ -32,6 +33,10 @@
           </li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon
+        ><ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
       <section class="section-hero">
@@ -193,7 +198,7 @@
               <div class="meal-tag">
                 <span class="tag tag--vegetarian"> Vegetarian </span>
               </div>
-              <figcaption class="meal-title">Japanese Gyozas</figcaption>
+              <p class="meal-title">Japanese Gyozas</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="flame-outline"></ion-icon
@@ -224,7 +229,7 @@
                 <span class="tag tag--vegan"> Vegetarian </span>
                 <span class="tag tag--paleo"> Paleo </span>
               </div>
-              <figcaption class="meal-title">Avocado Salad</figcaption>
+              <p class="meal-title">Avocado Salad</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="flame-outline"></ion-icon
@@ -446,8 +451,8 @@
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
                 ><span
-                  >order from <time datetime="11am">11am</time> to
-                  <time datetime="9pm">9pm</time></span
+                  >order from <time datetime="11:00">11am</time> to
+                  <time datetime="21:00">9pm</time></span
                 >
               </li>
               <li class="list-item">
